@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | V-Kellog's</title>
+    <link rel="stylesheet" href="5_contactusstyle.css">
+
+    <!-- font logo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+
+    <!-- page icon -->
+    <link rel="icon" href="../images/icon.png">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <li><a href="../home/1_home.html">VKellog's</a></li>
+        </div>
+        <ul>
+            <li><a href="../products/2_products.html">Products</a></li>
+            <li><a href="../recipes/3_recipes.html">Recipes</a></li>
+            <li><a href="../about/4_aboutus.html">About Us</a></li>
+            <li><a href="../contact/5_contactus.html">Contact Us</a></li>
+        </ul>
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <div>
+        <div class="contact-parent">
+            <section class="contact-us">
+                <h1>Contact Us</h1>
+                <form id="contact-form">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <h4>Copyright © VKellogs 2024. All rights reserved.</h4>
+    </footer>
+   
+</body>
+
+<script src="5_contactusscript.js"></script>
+</html>
